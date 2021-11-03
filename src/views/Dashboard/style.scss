@@ -1,0 +1,31 @@
+@import './../../App.scss';
+
+.dashboard {
+    background-color: $app-color-1;
+    min-height: 100vh;
+    position: relative;
+    color: $text-color;
+    display: flex;
+
+    main {
+        background-color: $app-color-2;
+        width: 100%;
+        position: relative;
+        
+        @media screen and (min-width: $lg) {
+            margin: 1em 1em 1em 14em;
+            border-radius: 50px;
+            padding: 50px;
+        }
+
+        @media screen and (min-width: $xl) {
+            margin-left: 15.75em;
+        }
+
+        h1 {
+            margin: 0;
+            font-weight: 300;
+            font-size: 42px;
+        }
+    }
+}

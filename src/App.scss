@@ -1,0 +1,25 @@
+/* theme colors */
+$app-color-1: #153438;
+$app-color-2: #21250a;
+$text-color: #d6cc47;
+$text-color-muted: #818941;
+
+/* scree sizes */
+$xs: 320px;
+$sm: 480px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1200px;
+
+.center-x-y {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+}
+
+@keyframes bounce {
+  to {
+    transform: translateY(-10%);
+  }
+}
