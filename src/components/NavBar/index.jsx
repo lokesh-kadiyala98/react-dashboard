@@ -10,7 +10,7 @@ const NavBar = () => {
     return ( 
         <nav>
             <div className="profile-container">
-                <img class="avatar" src="https://sync-advert.s3.ap-south-1.amazonaws.com/avatar.png" alt="user-avatar" />
+                <img className="avatar" src="https://sync-advert.s3.ap-south-1.amazonaws.com/avatar.png" alt="user-avatar" />
                 <p>Hello! <span>User</span></p>
             </div>
 

@@ -1,12 +1,12 @@
 <div align="center">
-    <h2 align="center">React Dashboard</h2>
-    <h5 align="center">Really cool modern Dashboard design.</h5>
+    <h2>React Dashboard</h2>
+    <h5>Really cool modern Dashboard design.</h5>
 </div>
 
 ## Demo
 
-[Live App](https://kibmw.csb.app/) :rocket:
-[Codesandbox](https://codesandbox.io/s/trusting-cdn-kibmw)
+[Live App](https://n1i7p.csb.app/) :rocket:
+[Codesandbox](https://codesandbox.io/s/headless-bash-n1i7p)
 
 <br/>
 
