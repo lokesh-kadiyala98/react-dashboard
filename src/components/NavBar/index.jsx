@@ -1,32 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import routes from './../../constants/routes';
+
 import './style.scss'
 
 const NavBar = () => {
-    
-    const menu = [
-        {
-            icon: <i className="fa fa-home icon"></i>,
-            text: 'Home',
-            to: '/'
-        },
-        {
-            icon: <i className="fa fa-images icon"></i>,
-            text: 'Gallery',
-            to: '/gallery'
-        },
-        {
-            icon: <i className="fa fa-user-friends icon"></i>,
-            text: 'Friends',
-            to: '/friends'
-        },
-        {
-            icon: <i class="fas fa-user-circle"></i>,
-            text: 'Profile',
-            to: '/profile'
-        }
-    ]
 
     return ( 
         <nav>
@@ -36,7 +15,7 @@ const NavBar = () => {
             </div>
 
             <ul>
-                {menu.map((item, key) => 
+                {routes.map((item, key) => 
                     <li key={key}>
                         <NavLink exact to={item.to}>
                             {item.icon}
